@@ -1,9 +1,5 @@
-'use client'
-
-import { useState } from 'react'
-import { useSignIn } from '@clerk/nextjs'
-import { useRouter } from 'next/navigation'
+import { SignIn } from '@clerk/nextjs'
 
 export default function Page() {
-  return
+  return <SignIn />
 }
