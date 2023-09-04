@@ -7,7 +7,7 @@ import CartIcon from './CartIcon'
 
 interface NavBarProps {}
 
-const NavBar = async ({}) => {
+const NavBar =  ({}) => {
   return (
     <nav className="w-full h-20 grid place-items-center relative bg-transparent z-50">
       <div className="container mx-auto flex justify-between items-start">
